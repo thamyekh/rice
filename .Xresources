@@ -1,0 +1,43 @@
+!! Xresource File
+! invoke xrdb -merge ~/.Xresources to apply any changes
+!
+
+*.foreground:   #ddc3cd
+*.background:   #0f1c21
+*.cursorColor:  #ddc3cd
+
+*.color0:       #0f1c21
+*.color1:       #b87285
+*.color2:       #c57788
+*.color3:       #eb7b85
+*.color4:       #b093b9
+*.color5:       #df979a
+*.color6:       #edb19a
+*.color7:       #ddc3cd
+*.color8:       #9a888f
+*.color9:       #b87285
+*.color10:      #c57788
+*.color11:      #eb7b85
+*.color12:      #b093b9
+*.color13:      #df979a
+*.color14:      #edb19a
+*.color15:      #ddc3cd
+
+!! URxvt Specific Configurations
+URxvt*font:		xft:Inconsolata:size=10
+URxvt.background:	[90]#0f1c21
+URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
+!! keyboard-select
+URxvt.keyboard-select.clipboard: true
+URxvt.keysym.M-Escape:		perl:keyboard-select:activate
+!! matcher
+URxvt.matcher.button:		1
+!URxvt.matcher.launcher:	usr/bin/xdg-open
+!! resize-font
+URxvt.resize-font.smaller:	C-j
+URxvt.resize-font.bigger:	C-k
+!! url-select
+URxvt.keysym.M-u:		perl:url-select:select_next
+!URxvt.url-select.launcher:	usr/bin/xdg-open
+URxvt.url-select.underline:	true
+
