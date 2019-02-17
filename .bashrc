@@ -8,6 +8,5 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-PATH="$HOME/scripts:$PATH"
-export PATH
+export PATH="$HOME/scripts:$PATH"
 
