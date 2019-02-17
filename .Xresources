@@ -24,12 +24,12 @@
 *.color15:      #ddc3cd
 
 !! URxvt Specific Configurations
-URxvt*font:		xft:Inconsolata:size=10
+URxvt*font:		xft:Inconsolata:size=11
 URxvt.background:	[90]#0f1c21
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
 !! keyboard-select
-URxvt.keyboard-select.clipboard: true
 URxvt.keysym.M-Escape:		perl:keyboard-select:activate
+URxvt.keyboard-select.clipboard: true
 !! matcher
 URxvt.matcher.button:		1
 !URxvt.matcher.launcher:	usr/bin/xdg-open
