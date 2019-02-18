@@ -26,6 +26,7 @@
 !! URxvt Specific Configurations
 URxvt*font:		xft:Inconsolata:size=11
 URxvt.background:	[70]#0f1c21
+Urxvt.depth:		32
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
 URxvt.scrollBar:	false
 
